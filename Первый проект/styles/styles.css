@@ -1,3 +1,7 @@
+*::selection {
+    color: deepskyblue;
+}
+
 body {
     background-color: bisque;
     text-align: center;
@@ -18,4 +22,21 @@ h1 {
 ul {
     text-align: left;
     margin-left: 29%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+input:hover {
+    background-color: lavenderblush;
+}
+
+ul {
+    list-style: none;
+    /* list-style: url(); */
+}
+
+ul li::marker {
+    content: url('../images/Moon.svg');
 }
