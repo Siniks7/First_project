@@ -8,7 +8,8 @@ body {
     text-decoration: solid;
 }
 
-h1 {
+h1,
+h2 {
     color: brown;
 }
 
@@ -39,4 +40,8 @@ ul {
 
 ul li::marker {
     content: url('../images/Moon.svg');
+}
+
+p {
+    border: 2px solid rgb(209, 231, 109)
 }
