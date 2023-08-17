@@ -6,11 +6,31 @@ body {
     background-color: bisque;
     text-align: center;
     text-decoration: solid;
+    font-family: fantasy;
+    color: midnightblue;
+    margin: 0;
 }
+
 
 h1,
 h2 {
     color: brown;
+}
+
+nav ul {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin: 50px;
+    border: 1px solid cornflowerblue;
+    padding: 15px;
+    background-color: darkviolet;
+    color: orangered;
 }
 
 .statue {
@@ -38,10 +58,16 @@ ul {
     /* list-style: url(); */
 }
 
-ul li::marker {
+.sectionList ul li::marker {
     content: url('../images/Moon.svg');
 }
 
 p {
     border: 2px solid rgb(209, 231, 109)
+}
+
+footer div {
+    height: 40px;
+    background-color: aquamarine;
+    margin: 0;
 }
