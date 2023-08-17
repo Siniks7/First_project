@@ -2,6 +2,10 @@
     color: deepskyblue;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: bisque;
     text-align: center;
@@ -24,6 +28,19 @@ nav ul {
 
 }
 
+form {
+    display: inline-block;
+}
+
+form input,
+button {
+    padding: 18px;
+    margin: 10px;
+}
+
+
+
+
 nav a {
     text-decoration: none;
     margin: 50px;
@@ -31,6 +48,22 @@ nav a {
     padding: 15px;
     background-color: darkviolet;
     color: orangered;
+}
+
+input {
+    border-radius: 20%;
+}
+
+#heroButton {
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 20%;
+    padding: auto;
+}
+
+#heroButton:hover {
+    background-color: cornflowerblue;
+    transition: all 1s;
 }
 
 .statue {
@@ -49,8 +82,11 @@ h1 {
     font-size: 36px;
 }
 
+
+
 input:hover {
     background-color: lavenderblush;
+    transition: all 1s;
 }
 
 ul {
