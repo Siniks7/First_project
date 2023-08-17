@@ -15,10 +15,13 @@ body {
     margin: 0;
 }
 
-
 h1,
 h2 {
     color: brown;
+}
+
+h2 {
+    margin-top: 40px;
 }
 
 h2:hover {
@@ -36,13 +39,25 @@ nav ul {
     display: flex;
     margin-bottom: 50px;
     margin-top: 50px;
+    border-bottom: 1px;
     /* transform: rotate(2deg); */
 }
 
+nav {
+    border-bottom: 0.5px;
+    border-color: darkgray;
+    border-bottom-style: groove;
+}
 
+nav a:hover {
+    background-color: beige;
+    transition: background-color 1s;
+}
 
 form {
     display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 form input,
@@ -51,16 +66,13 @@ button {
     margin: 10px;
 }
 
-
-
-
 nav a {
     text-decoration: none;
     margin: 50px;
     border: 1px solid cornflowerblue;
     padding: 15px;
-    background-color: darkviolet;
-    color: orangered;
+    background-color: rgb(203, 130, 235);
+    color: rgb(43, 40, 231);
 }
 
 input {
@@ -84,7 +96,7 @@ input {
     display: block;
     margin: auto;
     margin-top: 1cm;
-    width: 7cm;
+    filter: drop-shadow(3px 3px 10px #5f13b4);
 }
 
 .statue:hover {
@@ -103,7 +115,7 @@ h1 {
 
 
 
-input:hover {
+input:focus {
     background-color: lavenderblush;
     transition: all 1s;
 }
@@ -117,14 +129,19 @@ ul {
     content: url('../images/Moon.svg');
 }
 
+.MainText {
+    padding: 10px 20px;
+}
 
+.MainText:hover {
+    border: 2px solid rgb(209, 231, 109);
+    transition: border 0.4s;
 
-p {
-    border: 2px solid rgb(209, 231, 109)
 }
 
 footer div {
     height: 40px;
     background-color: aquamarine;
-    margin: 0;
+    margin: 40px 0 0 0;
+
 }
