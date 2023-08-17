@@ -76,6 +76,11 @@ input {
     width: 7cm;
 }
 
+.statue:hover {
+    transform: rotate(5deg);
+    transition: all 1s;
+}
+
 ul {
     text-align: left;
     margin-left: 29%;
